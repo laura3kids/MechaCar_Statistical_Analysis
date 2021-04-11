@@ -40,34 +40,39 @@ Overall, the varience PSI is 62, whichs meets design specifications.  However, w
 ## T-Tests on Suspension Coils
 T-Test <br />
 ![](https://github.com/laura3kids/MechaCar_Statistical_Analysis/blob/main/Images/t_test.png) <br />
+
 T-Test Lot1 <br />
 ![](https://github.com/laura3kids/MechaCar_Statistical_Analysis/blob/main/Images/t_test_Lot1.png) <br />
+Results of t-test Lot1 vs PSI: the p-value is 1 > 0.05, there is not enough evidence to reject the null hypothesis. This means the PSI from manufacturing Lot1 is not statistically different from the population mean of 1,500 PSI.
+
 T-Test Lot2 <br />
 ![](https://github.com/laura3kids/MechaCar_Statistical_Analysis/blob/main/Images/t_test_Lot2.png) <br />
+Results of t-test Lot2 vs PSI: the p-value is 0.6072 > 0.05, there is not enough evidence to reject the null hypothesis. This means the PSI from manufacturing Lot2 is not statistically different from the population mean of 1,500 PSI.
+
 T-Test Lot3 <br />
 ![](https://github.com/laura3kids/MechaCar_Statistical_Analysis/blob/main/Images/t_test_Lot3.png) <br />
+Results of t-test Lot3 vs PSI: the p-value is 0.04168 < 0.05, there is enough evidence to accept the null hypothesis, this means the PSI from manufacturing Lot3 is statistically different from the population mean of 1,500 PSI. 
 
-Based on our analysis, the t-test shows a p-value of 0.06, which means there is 6% probability of obtaining that result by chance when the treatment has no real effect. Because we set the significance level at 5%, the null hypothesis should not be rejected. Overall result is that manufacturing lots and each lot individually are statistically not different from the population mean of 1,500 pounds per square inch. But compared to the t-test per lots there is a significance, manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. The p-values range around less than 2.2e-16 which will reject the null hypothesis.
 
 ## Study Design: MechaCar vs Competition
-The statistical study that is described below can quantify how the MechaCar performs against the competition in regards to size of the car and their fuel efficiency. Testing dependent variable will be the size of the car and the gas tank and the independent variables will be miles per gallon (mpg) and miles per hour (mph). This test will show whether size of the car will determine the fuel efficiency.
+The summary below describes how MechaCar may perform against the competition in regards to size of the car, the size of the gas tank, and their fuel efficiency. Testing dependent variable will be the size of the car and the gas tank and the independent variables will be miles per gallon (mpg) and miles per hour (mph). This test will show whether size of the car will determine the fuel efficiency.
 
 Question 1:
-What metric or metrics are you going to test? The metric I will be testing will be miles per hour (mph), miles per gallon, and how big the gas tank is per car.
+What metric or metrics are you going to test?
+The metric I will be testing will be miles per hour(mph), miles per gallon (mpg), and how big the gas tank is per car.
 
 Question 2:
-What is the null hypothesis or alternative hypothesis. Hypothesis: Does driving in highways will have a more efficent mph. Null Hypothesis: Driving large tank cars in highways will have less efficent mph. Alertnative Hypothesis: Driving large tank cars in highways will have a more efficent mph.
+What is the null hypothesis or alternative hypothesis. 
+Hypothesis: Does driving on highways have an impact on MPG based on a car with a large, medium, or small gas tank.  
+Null Hypothesis: Driving large tank cars in highways will have less efficent mph. 
+Alertnative Hypothesis: Driving large tank cars in highways will have a more efficent mph.
 
 Question 3:
-What statistical test would you use to test the hypothesis? And why? I would use statistical test and retrieve p-values this will show if we can accept the hypothesis and reject null and accpet alternative.
+What statistical test would you use to test the hypothesis? And why? 
+I would need to use statistical test and retrieve p-values this will show if we can accept the hypothesis or reject it.
 
 Question 4:
-What data is needed to run the statistical test? The data we would need would be the test of large, medium, and small cars (measures their gas tanks) driving the same distance in the highway and see the correlation between mph and mpg.
+What data is needed to run the statistical test?
+We would need the size of the gas tanks, the size of the cars and driving times (mph) and the miles per gallon (MPG).
 
 
-The various comparable factors that MechaCar can perform against the competition would be cost,highway fuel efficiency, horse power, maintenance cost,seating capacity,PSI, mpg,ground clearence,fuel type,safety rating etc.
-___________________________
-1. We can test the highway fuel efficiency,horse power and cost.Since these metrics are directly proportional we can justify the cost of vehicle comparing to the competition.
-2. The null hypothesis is a statement of no difference between a sample mean or proportion and a population mean or proportion. The alternative hypothesis is a contradictory to the null hypothesis.The mean of metricA from the MechaCar can be equal or different than the mean of metricA from the competition.Using the t test we can calculate the p value and depending on this p value we can reject our null hypothesis if p value is smaller than 0.05 and support the alternative hypothesis or accept the null hypothesis and reject the alternative hypothesis.
-3. Since we are comparing the means from two populations we can use two sample t test. Further as we want to know whether one population mean is greater than or less than the other, we can perform a one-tailed t-test.
-4. The following data is needed to run the statistical test
