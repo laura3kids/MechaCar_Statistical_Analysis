@@ -3,11 +3,13 @@
 ## Linear Regression to Predict MPG
 Summary: The MechaCar_mpg dataset contains mpg test results for 50 prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. Using R, we will design a linear model that predicts the mpg of MechaCar prototypes using several variables/coefficients from the MechaCar_mpg datafile. 
 
-### Linear Regression
+#### **>Linear Regression**
+
 Calculating the linear regression using the below formula to get the multiple coefficients
 ![LinearModel](https://github.com/laura3kids/MechaCar_Statistical_Analysis/blob/main/Images/Linear_model.png)
 
 ### Linear Regression Summary
+
 Calculating the summary of the linear regression using the below formula to get the p-value and r-squared value
 ![SummaryMPG](https://github.com/laura3kids/MechaCar_Statistical_Analysis/blob/main/Images/Summary_MPG.png)
 
