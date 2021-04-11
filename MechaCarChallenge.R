@@ -21,18 +21,21 @@ total_summary <- susp_data %>% summarize(Mean=mean(PSI),Median=median(PSI),Varia
 lot_summary <- susp_data %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI), .groups = 'keep') 
 
 #Deliverable Three
-
+mean <- 1500
 #t-test
-t.test(susp_data$PSI,mu=mean(susp_data$PSI))
+t.test(susp_data$PSI,mu=mean)
+lot1 <- subset(susp_data, Manufacturing_Lot == "Lot1")
+lot2 <- subset(susp_data, Manufacturing_Lot == "Lot2")
+lot3 <- subset(susp_data, Manufacturing_Lot == "Lot3")
 
 #t-test Lot 1
-t.test(subset(susp_data$PSI,susp_data$Manufacturing_Lot == "Lot1"),mu=mean(susp_data$PSI))
+t.test(lot1$PSI, mu=mean)
 
 #t-test Lot 2
-t.test(subset(susp_data$PSI,susp_data$Manufacturing_Lot == "Lot2"),mu=mean(susp_data$PSI))
+t.test(lot2$PSI, mu=mean)
 
 #t-test Lot 3
-t.test(subset(susp_data$PSI,susp_data$Manufacturing_Lot == "Lot3"),mu=mean(susp_data$PSI))
+t.test(lot3$PSI, mu=mean)
 
 
 
