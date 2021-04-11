@@ -2,6 +2,7 @@
 
 ## Linear Regression to Predict MPG
 
+![CountySummary](https://github.com/laura3kids/Election_Analysis/blob/main/County%20Results.png)
 
 
 ## Summary Statistics on Suspension Coils
