@@ -18,7 +18,7 @@ Which variables/coefficients provided a non-random amount of variance to the mpg
 Vehicle length and ground clearance were the variables that provided a non-random amount of variance to the mpg values in the dataset.  
 Question 2: 
 Is the slope of the linear model considered to be zero? Why or why not? (which one is closer to 0 y- int) 
-The slope is not considered to be zero because the adjusted r-squared value is .6825 meaning that 68.25% of the time, there is moderate to strong correlation in the variable to the mpg. 
+The slope is not considered to be zero because the adjusted r-squared value is .6825 meaning that 68.25% of the time, there is moderate to strong correlation in the variable to the mpg. <br />
 Question 3: 
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not? (look at R squared) 
 The linear model gives us a strong correlation of mpg versus the variables of MechaCar prototypes because the adjusted r-squared is 0.7149, which shows strong correlation. 
